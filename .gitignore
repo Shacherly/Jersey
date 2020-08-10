@@ -45,3 +45,4 @@ buildNumber.properties
 *.project
 /build/
 /bin/
+.idea/jarRepositories.xml
