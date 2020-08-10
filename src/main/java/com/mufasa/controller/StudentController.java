@@ -44,7 +44,7 @@ public class StudentController {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response get() {
-        System.err.println("what????????");
+        System.err.println("====================");
         return Response.ok(new Student()).build();
     }
 }
