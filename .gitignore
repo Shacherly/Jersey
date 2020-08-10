@@ -46,4 +46,3 @@ buildNumber.properties
 /build/
 /bin/
 .idea/jarRepositories.xml
-*.iml
