@@ -2,6 +2,7 @@ package com.mufasa.controller;
 
 
 import com.mufasa.domain.Student;
+import lombok.extern.slf4j.Slf4j;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -40,7 +41,7 @@ public class StudentController {
     }
 
     @GET
-    @Path("/all")
+    @Path("/entire")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response get() {

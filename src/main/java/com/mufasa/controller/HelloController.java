@@ -13,9 +13,9 @@ public class HelloController implements Serializable {
     private static final long serialVersionUID = -467676864314366879L;
 
     @GET
-    @Produces({"text/plain;charset=UTF-8"})
+    @Produces({/*"text/plain;charset=UTF-8"*/MediaType.APPLICATION_JSON})
     public String sayHello() {
-        return "Hello Jersey，圣人之道、吾性自足、不假外求。";
+        return "圣人之道、吾性自足、不假外求。";
     }
 
 }
